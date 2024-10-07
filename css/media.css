@@ -1,0 +1,112 @@
+@media only screen and (min-width: 200px) and (max-width:575px){
+    .buildheading{
+        font-size: 42px;
+        line-height: 50px;
+        color: white;
+    }
+    .buildpara{
+       font-size: 16px;
+       font-family: "Nunito Sans", sans-serif;
+    }
+    .servicesbtn{
+        background-color: #5454D4;
+        color: white;
+        font-size: 16.09px;
+        font-family: "Nunito Sans", sans-serif;
+    }
+    .servicesbtn:hover{
+        background-color: white;
+        color: #5454D4;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .asdf{
+        margin-top: 30px;
+        min-height: 250px;
+    }
+    .zigzag{
+        width: 61px;
+        height: 18px;
+        top: 5%;
+        left: 5%;
+    
+    }
+    .circles{
+       width: 35px;
+       height: 42px;
+        top: 5%;
+        left: 80%;
+    }
+    .triangles{
+        width: 65px;
+        height: 75px;
+        top: 90%;
+        left: 5%;
+    }
+    .add{
+        top: 90%;
+        left: 85%;
+        height: 39px;
+        width: 39px;
+    }
+    .rbm{
+        width: 200px;
+        top: 15%;
+        left: 18%;
+    }
+    .man{
+        width: 280px;
+        top: -15%;
+        left: 10%;
+    }
+    .why{
+        font-size: 36px;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+
+    }
+    .watch{
+        font-family: 16px;
+        font-family: "Nunito Sans", sans-serif;
+        color: white;
+    }
+    .st{
+        width: 12%;;
+        left: 1%;
+        top: 1%;
+    }
+    .sa1{
+        width: 8%;
+        top: 1%;
+        left: 85%;
+    }
+    .sa2{
+        width: 8%;
+        top: 99%;
+        left: 1%;
+    
+    }
+    .pc
+    {
+        top: 2%;
+        left: 80%;
+        width: 8%;
+       }
+       .pz{
+        top: 90%;
+        left: 1%;
+        width: 8%;
+       }
+       .cp{
+        top: 1%;
+        left: 90%;
+        width: 8%;
+        }
+        .cc{
+        top: 87%;
+        left: 1%;
+        width: 8%;
+        }
+} 

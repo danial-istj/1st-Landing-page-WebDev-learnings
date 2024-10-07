@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+.dummy{
+    font-family: "Nunito Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+.body{
+    background-color: #19191B !important;
+}
+
+#navbarNav1 ul li a{
+    font-size: 18px;
+    color: white;
+    margin-inline: 40px;
+}
+#navbarNav1 ul li a:hover{
+    color: #5454D4 !important;
+}
+.rightbtn{
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+}
+.rightbtn:hover{
+    background-color: #5454D4;
+    border-radius: 5px;
+    border: 2px solid #5454D4;
+} 
+.modalbtn{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.buildheading{
+    font-size: 80px;
+    line-height: 84px;
+    color: white;
+}
+.buildpara{
+   font-size: 21px;
+   font-family: "Nunito Sans", sans-serif;
+}
+.servicesbtn{
+    background-color: #5454D4;
+    color: white;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.servicesbtn:hover{
+    background-color: white;
+    color: #5454D4;
+}
+.servicesbtn img:hover{
+    color: #5454D4;
+}
+.zigzag{
+    top: 5%;
+    left: 5%;
+
+}
+.circles{
+    top: 5%;
+    left: 80%;
+}
+.triangles{
+    top: 90%;
+    left: 5%;
+}
+.add{
+    top: 90%;
+    left: 85%;
+}
+.rbm{
+    top: 15%;
+    left: 18%;
+}
+.man{
+    top: -15%;
+    left: 10%;
+}
+.why{
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.watch{
+    font-family: 21px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.smh{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.sh{
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+}
+.sp{
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+}
+.st{
+    left: 1%;
+    top: 1%;
+}
+.sa1{
+    top: 1%;
+    left: 99%;
+}
+.sa2{
+    top: 99%;
+    left: 1%;
+
+}
+.pmh{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.carousel-indicators button {
+    background-color: #19191B; 
+}
+
+.carousel-indicators .active {
+    background-color: #5454D4; 
+}
+
+.carousel-indicators button:hover {
+    background-color: #5454D4; 
+}
+.pc{
+ top: 2%;
+ left: 80%;
+}
+.pz{
+ top: 99%;
+ left: 1%;
+}
+.cp{
+top: 1%;
+left: 99%;
+}
+.cc{
+top: 97%;
+left: 1%;
+}
+.flist{
+    list-style-type: none;
+}
+.flist li a{
+    text-decoration: none;
+    font-size: small;
+    color: white;
+}
+.flist li a:hover{
+    color: #5454D4;
+}
+.r1{
+    top: 0%;
+    left:0%;
+}
+.r2{
+    top: 0%;
+    right: 0%;
+}
+.c1{
+    top: 170%;
+    left: 0%;
+}
+.c2{
+ right: 0%;
+ top: 250%;
+}

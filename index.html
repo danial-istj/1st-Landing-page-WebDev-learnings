@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <link rel="stylesheet" href="/css/styles.css"/>
+     <link rel="stylesheet" href="/css/media.css"/>
+    <title>BS-5 Document</title>
+</head>
+<body>
+  <!-- Modal -->
+   <div class="modal fade" id="contactus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 " id="exampleModalLabel">Contact us</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Your Full Name" required>
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Enter Your E-mail" required>
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput3" class="form-label">Your Message</label>
+                <textarea class="form-control" id="formGroupExampleInput3" placeholder="Enter Your Message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn modalbtn mb-3">Submit</button>
+            </form>
+        </div>
+        </div>
+     </div>
+    </div>
+  <!--header-->
+    <header class="container-fluid z-1 position-relative" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg">
+                    <a href="#home" class="navbar-brand">
+                        <img src="images/Icon.svg" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"                  data-bs-target="#mobileMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav1">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#ourproject">Our Project</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#aboutus">About us</a></li> 
+                        </ul>
+                        <button data-bs-toggle="modal" data-bs-target="#contactus" class="btn rightbtn p-2 ms-5"> Contact us</button>
+                    </div>  
+                </nav>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                        <img src="/images/Icon.svg" alt="">
+                      </h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#ourproject">Our Project</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#aboutus">About us</a></li> 
+                        </ul>
+                    </div>
+                  </div>
+            </div>
+          </div>  
+        </div>
+    </header>
+  <!--Banner-->
+  <div class="container-fluid">
+    <div class="container">
+        <div class="row  mt-4 row-cols-1 row-cols-md-2">
+            <div class="col-md-4 col-12 col1 position-relative">
+              <h3 class="buildheading">
+                Build Your Awesome Platform
+              </h3>
+              <p class="buildpara">Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</p>
+              <button class="btn servicesbtn" data-bs-target="#services">Our Services <img src="/images/arrow-right-up.svg"/></button>
+            </div>
+            <div class="col-md-8 asdf col-12 col2 position-relative ">
+                <img class="zigzag img-fluid position-absolute" src="/images/zigzag.svg"/>
+                <img class="circles img-fluid position-absolute" src="/images/circle.svg"/>
+                <img class="triangles img-fluid position-absolute" src="/images/triangles.svg"/>
+                <img class="add img-fluid position-absolute" src="/images/add.svg"/>
+                <img class="rbm img-fluid position-absolute" src="/images/Rectangle Behing man.svg"/>
+                <img class="man img-fluid position-absolute" src="/images/Group 162532.svg"/>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--media container-->
+  <div class="container-fluid">
+    <div class="container mt-5 pt-5 ">
+        <div class="row row-cols-1 row-cols-md-2 align-items-center justify-content-between ">
+            <div class="col-md-6 col-12 ">
+                <h3 class="why">Why Enver Is The Best Choice?</h3>
+            </div>
+            <div class="col-md-6 col-12">
+                <p class="watch">Watch this one minute video so you understand why you should<br> use our services!</p>
+            </div>
+        </div>
+        <img src="/images/BG.svg" class="img-fluid mt-2">
+    </div>
+
+  </div> 
+  <!--services container-->
+  <div class="container-fluid " id="services">
+    <div class="container position-relative mt-5">
+        <img src="/images/triangles.svg" class="img-fluid position-absolute st">
+        <img src="/images/add.svg" class="img-fluid position-absolute sa1">
+        <img src="/images/add.svg" class="img-fluid position-absolute sa2">
+        <h1 class="text-center smh" >The Service We Provide For You</h1>
+
+        <div class="row row-cols-1 row-cols-md-3 mt-5 ">
+            <div class="col  text-center p-4">
+                <img src="/images/Icon (1).svg" class="img-fluid si">
+                <h4 class="sh p-3">Development</h4>
+                <p class="sp">Create a platform with the best and coolest quality from us.</p>
+            </div>
+            <div class="col text-center p-4">
+                <img src="/images/Icon (2).svg" class="img-fluid si">
+                <h4 class="sh p-3">UI/UX Designer</h4>
+                <p class="sp">We provide UI/UX Design services, and of course with the best quality</p>
+
+            </div>
+            <div class="col text-center p-4">
+                <img src="/images/Icon (3).svg" class="img-fluid si">
+                <h4 class="sh p-3">Graphik Designer</h4>
+                <p class="sp">We provide Graphic Design services, with the best designers</p>
+
+            </div>
+            <div class="col text-center p-4">
+                <img src="/images/Icon (4).svg" class="img-fluid si">
+                <h4 class="sh p-3">Motion Graphik</h4>
+                <p class="sp">Create a platform with the best and coolest quality from us.</p>
+
+            </div>
+            <div class="col text-center p-4">
+                <img src="/images/Icon (5).svg" class="img-fluid si">
+                <h4 class="sh p-3">Photography</h4>
+                <p class="sp">We provide Photography services, and of course with the best quality</p>
+
+            </div>
+            <div class="col text-center p-4">
+                <img src="/images/Icon (6).svg" class="img-fluid si">
+                <h4 class="sh p-3">Videography</h4>
+                <p class="sp">Create a platform with the best and coolest quality from us.</p>
+
+            </div>
+        </div>
+    </div>
+  </div>  
+  <!--portfolio container--> 
+  <div class="container-fluid" id="ourproject">
+    <div class="container mt-5 p-5 pmh position-relative">
+        <img src="/images/circle.svg" class="pc img-fluid position-absolute">
+        <img src="images/zigzag.svg" class="pz img-fluid position-absolute">
+        <h1>Our Awesome Portofolio</h1>
+        <div id="carouselExampleIndicators" class="carousel slide pt-4">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/images/c1.svg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/c2.svg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/c3.svg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+  <!--contactus-->
+  <div class="container-fluid p-md-5 mt-md-5" id="aboutus" style="background-color: rgba(30, 30, 32, 0.5);">
+    <div class="container position-relative p-md-5 p-3 pd-5 ">
+        <img src="/images/add.svg" class="img-fluid cp position-absolute">
+        <img src="/images/circle.svg" class="img-fluid cc position-absolute">
+        <div class="row row-cols-md-2 row-cols-1 justify-content-start mt-5 ">
+            <div class="col-md-8 col-12">
+                <h1 class="text-start">Contact us for the service you want to use</h1>
+            </div>
+            <div class="col-md-4 col-12">
+                <button data-bs-toggle="modal" data-bs-target="#contactus" class="btn rightbtn p-2 mt-2 mb-3  "> Contact us</button> 
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--footer-->
+  <footer class="container-fluid mt-4">
+    <div class="container p-5">
+        <div class="row row-cols-md-3 row-cols-1 text-center">
+            <div class="col-md-4 col-12">
+                <img src="/images/Icon.svg">
+            </div>
+            <div class="col-md-4 col-12 ">
+                <ul class="flist d-md-flex">
+                    <li class="p-2"><a href="#">Support</a></li>
+                    <li class="p-2"><a href="#">Privacy Policy</a></li>
+                    <li class="p-2"><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-12 p-3" style="font-size: x-small;"><p>© 2020 Enver, All Rights Reserved</p></div>
+        </div>
+    </div>
+  </footer>
+  <!--background hues-->
+  <img src="/images/Rectangle BL.svg" class="z-n1 img-fluid r1 position-absolute">
+  <img src="/images/Rectangle BR.svg" class="z-n1 img-fluid r2 position-absolute">
+  <img src="/images/leftcircle.svg" class="z-n1 img-fluid c1 position-absolute">
+  <img src="/images/right.svg" class="z-n1 img-fluid c2 position-absolute">
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+
+
+</html>
